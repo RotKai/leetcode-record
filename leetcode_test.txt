@@ -11,6 +11,15 @@
 #include <ctype.h>
 using namespace std;
 
+// PRINT_VECTOR
+void printvector(vector<int>& nums){
+    cout <<"print vector" <<endl;
+    for (auto i:nums){
+    cout << i << endl;
+    }
+ }
+ 
+// TREENODE 
 struct TreeNode {
     int val;
     TreeNode *left;
@@ -20,6 +29,7 @@ struct TreeNode {
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+// LISTNODE
 struct ListNode {
     int val;
     ListNode *next;
