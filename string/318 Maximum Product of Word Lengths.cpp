@@ -11,7 +11,6 @@ public:
                 bits[i] |= 1<<(words[i][j]- 'a'); 
             }
         }
-
         for (int i=0; i<n; i++){
             for (int j=i+1; j<n; j++){
                 if ((bits[i] & bits[j])==0){
@@ -20,7 +19,7 @@ public:
                 }
             }
         }
-        
+ 
         return ans;
     }
 };
