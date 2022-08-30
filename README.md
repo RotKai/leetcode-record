@@ -1,4 +1,3 @@
 # leetcode-record
-record all my leetcode answer
-
+Record all my leetcode answer
 Welcome!
