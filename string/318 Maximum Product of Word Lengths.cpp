@@ -5,7 +5,6 @@ public:
         int ans = 0;
         vector<int> bits(n);
         for (int i=0; i<n; i++){
-            int ele = 0;
             int m = words[i].size();
             for (int j=0; j<m; j++){
                 bits[i] |= 1<<(words[i][j]- 'a'); 
