@@ -13,7 +13,7 @@ using namespace std;
 
 // PRINT_VECTOR
 void printvector(vector<int>& nums){
-    cout <<"print vector" <<endl;
+    cout <<"Start printing vector:" <<endl;
     for (auto i:nums){
     cout << i << endl;
     }
