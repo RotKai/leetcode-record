@@ -24,4 +24,4 @@ public:
         }
         return ( (r==0 && c==0) || (di != 0) ); //回到原点，或者方向变了
     }
-};[LeetCode] 1041. Robot Bounded In Circle
+};
